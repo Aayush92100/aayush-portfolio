@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aayush Tejani | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              background: 'rgb(var(--background) / <alpha-value>)',
+              surface: 'rgb(var(--surface) / <alpha-value>)',
+              primary: 'rgb(var(--primary) / <alpha-value>)',
+              secondary: 'rgb(var(--secondary) / <alpha-value>)',
+              neon: {
+                cyan: '#00f2ff', 
+                violet: '#bd00ff',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+          },
+        },
+      };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        /* Light Mode Defaults */
+        --background: 255 255 255;
+        --surface: 245 245 245;
+        --primary: 0 0 0;
+        --secondary: 100 100 100;
+      }
+      
+      .dark {
+        /* Dark Mode Defaults */
+        --background: 0 0 0;
+        --surface: 10 10 10;
+        --primary: 255 255 255;
+        --secondary: 161 161 170;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: rgb(var(--background));
+        color: rgb(var(--primary));
+        overflow-x: hidden;
+        transition: background-color 0.5s ease, color 0.5s ease;
+      }
+
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgb(var(--background)); 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgb(var(--secondary)); 
+        border-radius: 4px;
+        border: 1px solid rgb(var(--background));
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(var(--primary)); 
+      }
+      
+      .selection-invert ::selection {
+        background-color: rgb(var(--primary));
+        color: rgb(var(--background));
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.2.0",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.8?deps=react@18.2.0,react-dom@18.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
