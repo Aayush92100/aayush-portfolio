@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 Aayush Tejani - Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website!  
+This site showcases my work, skills, and experience as a Full Stack Developer.
 
-This contains everything you need to run your app locally.
+🌐 **Live Website:** https://aayushtejani.vercel.app/
 
-View your app in AI Studio: https://ai.studio/apps/drive/1C5A1WB6jSQfypK-HDB8uxGv6GeaPZ-R3
+---
 
-## Run Locally
+## 👨‍💻 About Me
 
-**Prerequisites:**  Node.js
+Hi, I'm Aayush 👋  
+I am a **Full Stack Web Developer** passionate about building web applications and solving real-world problems.
+
+- 🧠 Strong interest in problem-solving  
+- 💼 1+ year of experience  
+- 🌍 Open to software development opportunities  
+- 🤝 Available for freelance work 
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 💻 Languages
+- C++
+- JavaScript
+- TypeScript
+- python
+- java
+
+
+### 🌐 Frontend
+- React.js
+- Next.js
+- HTML, CSS
+- Tailwind CSS
+- Framer Motion
+
+### ⚙️ Backend
+- Node.js
+- Express.js
+
+### 🗄️ Database
+- MongoDB
+- MySQl
+
+## ✨ Features of This Portfolio
+
+- 📱 Fully responsive design  
+- ⚡ Fast and optimized performance  
+- 🎨 Clean UI with modern design  
+- 📂 Project showcase with live demos  
+- 📬 Contact integration  
+
+## 🚀 Getting Started
+
+To run locally:
+
+```bash
+git clone 
+npm install
+npm run dev
