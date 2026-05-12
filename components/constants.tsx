@@ -34,40 +34,31 @@ export const CORE_COMPETENCIES = [
 export const PROJECTS: Project[] = [
   {
     id: "1",
-    title: "AI Automation Workflow",
-    description: "An automated system leveraging Python scripts to streamline daily data processing tasks, reducing manual effort by 60%.",
-    technologies: ["Python", "Selenium", "OpenAI API"],
-    imageUrl: "https://picsum.photos/600/400?random=10",
-    link: "#",
-    github: "#"
+    title: "LeadFlow CRM",
+    description: "A powerful Client Lead Management System (Mini CRM) designed for efficient customer relationship management, lead tracking, and sales pipeline automation.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    imageUrl: "https://res.cloudinary.com/dgooxgtna/image/upload/v1778500776/Screenshot_2026-05-11_172850_d6xywx.png",
+    link: "https://lead-flow-1002.vercel.app",
+    github: "https://github.com/Aayush92100/LeadFlow"
   },
   {
     id: "2",
-    title: "Vibe Code Snippets",
-    description: "A collection of highly efficient, reusable code snippets and utilities for React and Next.js developers.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    imageUrl: "https://picsum.photos/600/400?random=11",
-    link: "#",
-    github: "#"
+    title: "Khodal Sofa Website",
+    description: "A premium sofa and furniture e-commerce platform featuring interactive 3D product visualization, smooth animations, and modern design. Master manufacturing since 2013.",
+    technologies: ["React 18", "Vite", "Three.js", "Framer Motion", "Tailwind CSS"],
+    imageUrl: "https://res.cloudinary.com/dgooxgtna/image/upload/v1778500821/Screenshot_2026-05-11_172914_zqpwcn.png",
+    link: "https://khodalsofa.vercel.app",
+    github: "https://github.com/Aayush92100/khodal-sofa-website"
   },
   {
     id: "3",
-    title: "Portfolio V1",
-    description: "A minimal, high-performance personal website built to showcase projects and engineering skills.",
-    technologies: ["React", "Vite", "Tailwind"],
-    imageUrl: "https://picsum.photos/600/400?random=12",
-    link: "#",
-    github: "#"
+    title: "WellnessSynergy",
+    description: "A wellness platform that combines ancestral wisdom with modern performance science to create a flow-state experience through curated mindfulness, vitality, and recovery features.",
+    technologies: ["React.js", "Vite", "Framer Motion", "Node.js", "MongoDB"],
+    imageUrl: "/images/wellnesssynergy-project.png",
+    link: "https://wellnesssynergy.vercel.app",
+    github: "https://github.com/Aayush92100/wellnesssynergy"
   },
-  {
-    id: "4",
-    title: "Algorithm Visualizer",
-    description: "Interactive visualization of sorting and pathfinding algorithms using C++ logic adapted for the web.",
-    technologies: ["C++", "WebAssembly", "JavaScript"],
-    imageUrl: "https://picsum.photos/600/400?random=13",
-    link: "#",
-    github: "#"
-  }
 ];
 
 // --- EXPERIENCE ---
